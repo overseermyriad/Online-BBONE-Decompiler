@@ -9,6 +9,7 @@ Example usage:
 BBONE_to_XFL.py input.bbone
 
 Supported arguments:
+
 --merge-similar: For some reason, there are buggy animations that have 100s of the same sprite that are slightly different. This causes the output XFL to be insanely large in size. Thus, this merges similar sprites to avoid lag.
 
 --separate-layers: This separates the timeline of animations into multiple layers. It is recommended to export with this option enabled.
